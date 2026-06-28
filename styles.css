@@ -395,6 +395,15 @@ textarea {
   margin: 4px 0 12px;
 }
 
+.size-note {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  margin: 12px 0 0;
+  text-transform: uppercase;
+}
+
 .service-list {
   display: grid;
   gap: 12px;
