@@ -531,19 +531,6 @@ textarea {
   text-align: center;
 }
 
-.feature-photo {
-  background: var(--paper);
-  border-bottom: 1px solid var(--line);
-}
-
-.feature-photo img {
-  aspect-ratio: 3271 / 2160;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
-  width: 100%;
-}
-
 .site-footer {
   background: var(--paper);
   display: grid;
@@ -743,11 +730,6 @@ textarea {
 
   .gallery img {
     aspect-ratio: 0.86;
-  }
-
-  .feature-photo img {
-    aspect-ratio: 1.05;
-    object-position: 70% center;
   }
 
   .about {
