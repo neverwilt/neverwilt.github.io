@@ -15,7 +15,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -26,9 +25,9 @@
           <span class="brand-subtitle">Life like designer floral arrangements</span>
         </span>
       </a>
-      <button class="button button-header" type="button" data-open-trial>
-        Book a 2 Week Free Trial
-      </button>
+      <a class="button button-header" href="https://forms.gle/XvnJjpXQXdtCcdog6" target="_blank" rel="noopener">
+        Inquire
+      </a>
     </header>
 
     <main>
@@ -41,9 +40,9 @@
             using premium life-like flowers.
           </p>
           <p class="price-line">From <strong>$129</strong> per month</p>
-          <button class="button button-primary" type="button" data-open-trial>
-            Book a 2 Week Free Trial
-          </button>
+          <a class="button button-primary" href="https://forms.gle/XvnJjpXQXdtCcdog6" target="_blank" rel="noopener">
+            Inquire
+          </a>
           <p class="small-note">
             <span aria-hidden="true">
               <img class="note-leaf-icon" src="assets/simple-leaf-icon-transparent.png" alt="" decoding="async" />
@@ -149,7 +148,6 @@
             <li>Delivery &amp; installation</li>
             <li>Monthly arrangement refresh</li>
             <li>No maintenance required</li>
-            <li>Free 2 week trial</li>
           </ul>
           <p class="pricing-note">
             Larger arrangements and sets available. Pricing provided on request.
@@ -163,70 +161,25 @@
         </div>
         <div>
           <h2 id="cta-title">Ready to elevate your space?</h2>
-          <p>Try a premium arrangement in your business for free.</p>
+          <p>Tell us about your space and we will recommend a tailored arrangement.</p>
         </div>
         <div class="cta-action">
-          <button class="button button-outline" type="button" data-open-trial>
-            Book a 2 Week Free Trial
-          </button>
+          <a class="button button-outline" href="https://forms.gle/XvnJjpXQXdtCcdog6" target="_blank" rel="noopener">
+            Inquire
+          </a>
           <p>No lock-in contract. Cancel anytime.</p>
         </div>
       </section>
-    </main>
 
-    <div class="trial-modal" id="trial-modal" hidden>
-      <div class="trial-backdrop" data-close-trial></div>
-      <section
-        class="trial-panel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="trial-title"
-        aria-describedby="trial-description"
-      >
-        <button class="modal-close" type="button" aria-label="Close form" data-close-trial>
-          &times;
-        </button>
-        <h2 id="trial-title">Book a 2 Week Free Trial</h2>
-        <p id="trial-description">
-          Tell us where the arrangement will live and how to reach you.
-        </p>
-        <form class="trial-form" id="trial-form" novalidate>
-          <div class="form-grid">
-            <label>
-              First name
-              <input type="text" name="first-name" autocomplete="given-name" required />
-            </label>
-            <label>
-              Last name
-              <input type="text" name="last-name" autocomplete="family-name" required />
-            </label>
-            <label class="form-wide">
-              Company name
-              <input type="text" name="company-name" autocomplete="organization" required />
-            </label>
-            <label class="form-wide">
-              Business address
-              <input type="text" name="address" autocomplete="street-address" required />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" autocomplete="email" />
-            </label>
-            <label>
-              Phone number
-              <input type="tel" name="phone" autocomplete="tel" />
-            </label>
-            <label class="form-wide">
-              Anything else we should know?
-              <textarea name="message" rows="4"></textarea>
-            </label>
-          </div>
-          <p class="form-error" id="form-error" aria-live="polite"></p>
-          <button class="button form-submit" type="submit">Submit Trial Request</button>
-          <p class="form-status" id="form-status" aria-live="polite"></p>
-        </form>
+      <section class="feature-photo" aria-label="Never Wilt arrangement in a professional reception area">
+        <img
+          src="assets/property-hub-reception.jpg"
+          alt="Life-like floral arrangement styled in a professional reception area"
+          loading="lazy"
+          decoding="async"
+        />
       </section>
-    </div>
+    </main>
 
     <footer class="site-footer">
       <div class="footer-brand">
